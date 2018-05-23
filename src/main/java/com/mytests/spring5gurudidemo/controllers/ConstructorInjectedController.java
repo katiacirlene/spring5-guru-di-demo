@@ -1,7 +1,9 @@
 package com.mytests.spring5gurudidemo.controllers;
 
 import com.mytests.spring5gurudidemo.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
 
     private GreetingService greetingService;
@@ -10,7 +12,7 @@ public class ConstructorInjectedController {
         this.greetingService = greetingService;
     }
 
-    String sayHello() {
+    public String sayHello() {
         return greetingService.sayGreeting();
     }
 }
