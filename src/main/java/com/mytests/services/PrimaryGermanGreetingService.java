@@ -1,16 +1,16 @@
-package com.mytests.spring5gurudidemo.services;
+package com.mytests.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
-@Profile("es")
 @Primary
-public class PrimarySpanishGreetingService implements GreetingService {
+@Profile("de")
+public class PrimaryGermanGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
-        return "Servicio de Saluto Primario";
+        return "Primärer Begrüßungsdienst";
     }
 }

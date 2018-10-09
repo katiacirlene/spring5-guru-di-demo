@@ -1,4 +1,4 @@
-package com.mytests.spring5gurudidemo.services;
+package com.mytests.services;
 
 public interface GreetingService {
 
