@@ -1,6 +1,6 @@
 package com.mytests.spring5gurudidemo.controllers;
 
-import com.mytests.services.GreetingServiceImpl;
+import com.mytests.spring5gurudidemo.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

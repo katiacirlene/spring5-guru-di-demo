@@ -10,7 +10,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.mytests.services", "com.mytests.spring5gurudidemo"})
 public class Spring5GuruDiDemoApplication {
 
 	public static void main(String[] args) {

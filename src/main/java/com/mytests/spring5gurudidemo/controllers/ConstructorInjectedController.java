@@ -1,6 +1,6 @@
 package com.mytests.spring5gurudidemo.controllers;
 
-import com.mytests.services.GreetingService;
+import com.mytests.spring5gurudidemo.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
